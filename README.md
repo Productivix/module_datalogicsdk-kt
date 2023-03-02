@@ -8,6 +8,9 @@ based on Datalogic V2.0.3 et Sdk v1.33 , rebuilt for React Native ^0.71 by Produ
 ```sh
 npm install react-native-module_datalogicsdk-kt
 or yarn add react-native-module_datalogicsdk-kt
+
+or npm i https://github.com/Productivix/module_datalogicsdk-kt
+or yarn add https://github.com/Productivix/module_datalogicsdk-kt
 ```
 
 ## Usage
