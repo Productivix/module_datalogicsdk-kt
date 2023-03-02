@@ -1,10 +1,9 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text,NativeEventEmitter, Alert } from 'react-native';
+import {StyleSheet,View,Text,NativeEventEmitter,Alert } from 'react-native';
 //import { multiply } from 'react-native-module_datalogicsdk-kt';
 
 import { BarcodeManager } from 'react-native-module_datalogicsdk-kt';
-
 
 export default function App() {
   
