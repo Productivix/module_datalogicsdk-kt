@@ -6,16 +6,26 @@ module to scan barcodes with a Datalogic based on sdk, in KT
 
 ```sh
 npm install react-native-module_datalogicsdk-kt
+or yarn add eact-native-module_datalogicsdk-kt
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-module_datalogicsdk-kt';
-
+import { BarcodeManager } from 'react-native-module_datalogicsdk-kt';
+import { NativeEventEmitter, Alert } from 'react-native';
 // ...
-
-const result = await multiply(3, 7);
+React.useEffect(() => {
+  try {
+    const eventEmitter = new NativeEventEmitter(BarcodeManager);
+    eventEmitter.addListener('successCallback', (map) => {
+      Alert.alert('Barcode Result', map.barcodeData + '\n' + map.barcodeType);
+    });
+    BarcodeManager.addReadListener();
+  } catch (e) {
+    console.error(e);
+  }
+}, []);
 ```
 
 ## Contributing
