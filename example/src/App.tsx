@@ -7,7 +7,7 @@ import { BarcodeManager } from 'react-native-module_datalogicsdk-kt';
 
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  
 
  /*  React.useEffect(() => {
     multiply(3, 7).then(setResult);
@@ -25,7 +25,7 @@ export default function App() {
   }, []);
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>please press Scan </Text>
     </View>
   );
 }
