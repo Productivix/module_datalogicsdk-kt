@@ -17,6 +17,13 @@ const ModuleDatalogicsdkKt = NativeModules.ModuleDatalogicsdkKt
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
+/* export function multiply(a: number, b: number): Promise<number> {
   return ModuleDatalogicsdkKt.multiply(a, b);
 }
+ */
+export const BarcodeManager = NativeModules.BarcodeManager;
+export const AutoScanTrigger = NativeModules.AutoScanTrigger;
+export const KeyboardManager = NativeModules.KeyboardManager;
+export const LedManager = NativeModules.LedManager;
+export const ScannerProperties = NativeModules.ScannerProperties;
+

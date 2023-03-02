@@ -8,15 +8,14 @@ import com.facebook.react.uimanager.ViewManager
 
 class ModuleDatalogicsdkKtPackage : ReactPackage {
   override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-    return listOf(ModuleDatalogicsdkKtModule(reactContext))
-     /* return listOf(
+    //return listOf(ModuleDatalogicsdkKtModule(reactContext))
+     return listOf(
       BarcodeManager(reactContext),
       AutoScanTrigger(reactContext),
       KeyboardManager(reactContext),
       LedManager(reactContext),
       ScannerProperties(reactContext)
-      ModuleDatalogicsdkKtModule(reactContext)
-    ) */
+    ) 
   }
 
   override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
