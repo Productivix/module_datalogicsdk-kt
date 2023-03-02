@@ -1,7 +1,7 @@
 # react-native-module_datalogicsdk-kt
 
 module to scan barcodes with a Datalogic based on sdk, in KT
-based on Datalogic V2.0.3 , rebuilt for React Native 0.71 by Productivix
+based on Datalogic V2.0.3 et Sdk v1.33 , rebuilt for React Native ^0.71 by Productivix sarl
 
 ## Installation
 
@@ -38,5 +38,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 MIT
 
 ---
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
