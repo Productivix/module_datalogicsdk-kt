@@ -41,15 +41,15 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/Productivix/react-native-module_datalogicsdk-kt",
+  "repository": "https://github.com/Productivix/module_datalogicsdk-kt",
   "author": "Productivix <info@productivix.com> (https://github.com/Productivix)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Productivix/react-native-module_datalogicsdk-kt/issues"
+    "url": "https://github.com/Productivix/module_datalogicsdk-kt/issues"
   },
-  "homepage": "https://github.com/Productivix/react-native-module_datalogicsdk-kt#readme",
+  "homepage": "https://github.com/Productivix/module_datalogicsdk-kt#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+   "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@evilmartians/lefthook": "^1.2.2",
