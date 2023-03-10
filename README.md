@@ -15,6 +15,13 @@ or yarn add https://github.com/Productivix/module_datalogicsdk-kt
 
 ## Usage
 
+### Settings
+
+in terminal settings, Datalogic settings, Scanner settings, Wedge,
+disable everything to avoid conflic in the UI of signals comming from 2 ways.
+
+### in your program
+
 ```js
 import { BarcodeManager } from 'react-native-module_datalogicsdk-kt';
 import { NativeEventEmitter, Alert } from 'react-native';
