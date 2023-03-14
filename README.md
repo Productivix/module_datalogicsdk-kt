@@ -18,7 +18,8 @@ or yarn add https://github.com/Productivix/module_datalogicsdk-kt
 ### Settings
 
 in terminal settings, Datalogic settings, Scanner settings, Wedge,
-disable everything to avoid conflic in the UI of signals comming from 2 ways.
+disable everything to avoid conflic in the UI of signals comming from 2 ways
+Save in "scanner settings" by "Commit" - if not, at reboot the old configuration comes back.
 
 ### in your program
 
