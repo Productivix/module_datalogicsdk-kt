@@ -11,6 +11,10 @@ or yarn add react-native-module_datalogicsdk-kt
 
 or npm i https://github.com/Productivix/module_datalogicsdk-kt
 or yarn add https://github.com/Productivix/module_datalogicsdk-kt
+
+for yarn versions >=3 :
+yarn add react-native-module_datalogicsdk-kt@https://github.com/Productivix/module_datalogicsdk-kt
+
 ```
 
 ## Usage
